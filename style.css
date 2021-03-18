@@ -81,6 +81,9 @@ nav .w {
 nav span {
   color: white;
 }
+nav span {
+  pointer-events: none;
+}
 
 section#red {
   padding-top: 150px;
