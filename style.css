@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+}
+.red-border {
+  border: 1px solid red;
+}
+.font-cabin {
+  font-family: "Cabin", sans-serif;
+}
+.bold {
+  font-weight: bolder;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  width: 1140px;
+}
+.flex {
+  display: flex;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.justify-content-space-around {
+  justify-content: space-around;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.align-items-center {
+  align-items: center;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+.zindex-1 {
+  z-index: 1;
+}
+.zindex-2 {
+  z-index: 2;
+}
+.zindex-3 {
+  z-index: 3;
+}
+
+nav {
+  background-color: black;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+nav .font-size {
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: lightgreen;
+}
+
+nav .w {
+  width: 400px;
+}
+nav span {
+  color: white;
+}
+
+section#red {
+  padding-top: 150px;
+  background-color: tomato;
+  height: 550px;
+}
+
+#red h1 {
+  font-size: 63px;
+}
+
+#red h5 {
+  font-size: 13px;
+}
+#red p {
+  font-size: 15px;
+}
+
+#red button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#red button:hover {
+  transition: 0.1s;
+  background-color: #4caf50;
+}
+
+#red .divText {
+  width: 610px;
+}
+
+section#pink {
+  background-color: #ef1cb4;
+  height: 450px;
+  padding-top: 100px;
+}
+
+#pink button {
+  background-color: white;
+  border: none;
+  color: #ef1cb4;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#pink button:hover {
+  transition: 0.1s;
+  background-color: #4caf50;
+}
+
+#pink .divText {
+  width: 583px;
+  padding-top: 4%;
+}
+
+#pink .box {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+}
+
+#pink .pos {
+  top: 50px;
+  left: -23px;
+}
+#pink .boxText {
+  font-weight: bolder;
+  font-size: 66px;
+  color: #ef1cb4;
+  margin-left: 30px;
+}
+
+#pink .divText h1 {
+  font-size: 60px;
+  color: white;
+}
+#pink .divText h3 {
+  font-size: 15px;
+  color: white;
+}
+#pink .divText h4 {
+  font-size: 19px;
+  color: white;
+}
+
+section#blue {
+  background-color: #002cff;
+  height: 500px;
+  overflow: hidden;
+}
+
+#blue button {
+  background-color: #4caf50;
+  border: none;
+  color: #002cff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#blue button:hover {
+  transition: 0.1s;
+  background-color: #4caf50;
+}
+
+#blue img {
+  width: 100vw;
+  height: 500px;
+}
+
+#blue .divText {
+  width: 400px;
+  margin-top: 100px;
+  color: #4caf50;
+}
+
+#blue .posImg {
+  top: 0px;
+  left: 0px;
+}
+#blue h1 {
+  font-size: 52px;
+}
+#blue h2 {
+  font-size: 15px;
+}
+#blue h3 {
+  font-size: 17px;
+}
+
+footer {
+  height: 500px;
+  background-color: black;
+  color: white;
+}
+
+#footer li {
+  list-style-type: none;
+  font-size: 20px;
+  margin-top: 15px;
+}
+#footer li:hover {
+  transition: 0.1s;
+  color: #4caf50;
+}
+
+.grey-text {
+  color: grey;
+}
+
+#footer i {
+  font-size: 50px;
+}
+#footer i:hover {
+  color: #4caf50;
+  transition: 0.1s;
+}
+
+#footer span {
+  width: 300px;
+}
+#footer p {
+  margin-right: 37px;
+  font-size: 15px;
+}
+#footer h5 {
+  font-size: 10px;
+}
+
+#footer .container {
+  padding-top: 100px;
+}
